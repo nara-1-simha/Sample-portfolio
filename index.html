@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm <strong>Narasimha Reddy</strong>, a passionate web developer with a love for creating beautiful and functional websites. I have a strong foundation in front-end technologies and continuously work on improving my skills. I am a self-motivated and detail-oriented individual who loves taking on challenges and learning new things.</p>
+        <p>I graduated with a degree in Computer Science and have worked on various web development projects. I enjoy problem-solving and working collaboratively with others to create the best possible results.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Web Design</li>
+            <li>CSS Frameworks (Bootstrap, Tailwind CSS)</li>
+            <li>APIs (RESTful, JSON)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h2>Portfolio Website</h2>
+            <p>This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information. It is fully responsive and can be viewed on any device.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h2>Task Manager</h2>
+            <p>A task management application built with React. It allows users to add, update, and delete tasks. It also features a simple authentication system to keep track of users and their tasks.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h2>Weather App</h2>
+            <p>A weather forecasting application built using the OpenWeather API. Users can search for their city and get the current weather conditions, temperature, and forecast for the next few days.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p><strong>Phone:</strong> 123-456-7890</p>
+        <p><strong>Email:</strong> johndoe@example.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
+    </section>
+
+    <!-- Add this just before </body> in index.html -->
+    <button id="topBtn" title="Go to top">↑</button>
+
+    <footer>
+        <p>Made with ❤️ by John Doe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
